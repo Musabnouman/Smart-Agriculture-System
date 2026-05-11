@@ -1,0 +1,7 @@
+.xia/
+node_modules/
+__pycache__/
+*.pyc
+.env
+*.pkl
+*.h5
