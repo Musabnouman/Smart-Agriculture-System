@@ -13,7 +13,7 @@ const AboutPage: React.FC = () => {
         <header className="px-4 py-2 mb-2 border-b flex items-center justify-between bg-white shadow-sm">
                 <div className="flex items-center gap-1 font-medium">
                   <Leaf className="h-5 w-5 text-green-600" />
-                  <span className="text-md">FarmFriend</span>
+                  <span className="text-md">SmartFarm</span>
                 </div>
                 <button
                   onClick={() => navigate("/")}
@@ -29,12 +29,12 @@ const AboutPage: React.FC = () => {
           <CardHeader>
             <div className="flex items-center gap-3">
               <Info className="h-8 w-8 text-green-600" />
-              <CardTitle className="text-2xl font-bold">About FarmFriend</CardTitle>
+              <CardTitle className="text-2xl font-bold">About SmartFarm</CardTitle>
             </div>
           </CardHeader>
           <CardContent>
             <CardDescription className="text-gray-600 text-lg">
-              FarmFriend is an AI-powered platform designed to assist farmers with smart plant disease detection, efficient irrigation and fertilization scheduling. Our goal is to enhance agricultural productivity through technology-driven insights.
+              SmartFarm is an AI-powered platform designed to assist farmers with smart plant disease detection, efficient irrigation and fertilization scheduling. Our goal is to enhance agricultural productivity through technology-driven insights.
             </CardDescription>
           </CardContent>
         </Card>
@@ -89,7 +89,7 @@ const AboutPage: React.FC = () => {
             <div className="flex items-start gap-4">
               <CloudRain className="h-8 w-8 text-blue-600" />
               <div>
-                <h3 className="text-xl font-semibold">Smart Irrigation and fertilization Scheduling</h3>
+                <h3 className="text-xl font-semibold">Smart Irrigation and Fertilization Scheduling</h3>
                 <p className="text-gray-600">Optimize water and fertilizer usage based on weather conditions and soil moisture levels. This system provides general recommendations and does not suggest crops based on specific plant types.</p>
                 <p className="mt-4 text-gray-700"><strong>Model Used:</strong> Logistic Regression</p>
                 <p className="mt-2 text-gray-700">This model predicts irrigation and fertilization needs based on soil moisture and weather forecast, ensuring efficient resource management.</p>

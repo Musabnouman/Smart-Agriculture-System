@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <div className="flex items-center gap-2 font-semibold">
           <Leaf className="h-6 w-6 text-green-600" />
-          <span>FarmFriend</span>
+          <span>SmartFarm</span>
         </div>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <span onClick={() => navigate('/')} className="text-sm font-medium text-black hover:underline underline-offset-4">
@@ -55,22 +55,7 @@ const HomePage: React.FC = () => {
         </section>
       </main>
 
-      {/* <footer className="flex flex-col gap-2 sm:flex-row py-1 w-full border-t px-4 md:px-6 text-gray-500 text-xs">
-        <p>© 2025 FarmFriend</p>
-        <div className="sm:ml-auto flex gap-4 sm:gap-6">
-          <span className="hover:underline underline-offset-4">Contributors</span>
-          <span className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4">
-            <a href="https://github.com/devpatel0005" target="_blank" rel="noopener noreferrer">Dev Patel</a>
-          </span>
-          <span className="text-green-600 hover:text-green-800 hover:underline underline-offset-4">
-            <a href="https://github.com/haripatel07" target="_blank" rel="noopener noreferrer">Hari Patel</a>
-          </span>
-          <span className="text-red-600 hover:text-red-800 hover:underline underline-offset-4">
-            <a href="https://github.com/ihetpatel" target="_blank" rel="noopener noreferrer">Het Patel</a>
-          </span>
-
-        </div>
-      </footer> */}
+    
     </div>
   );
 };

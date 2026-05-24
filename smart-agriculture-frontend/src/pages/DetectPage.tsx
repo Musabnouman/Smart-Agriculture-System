@@ -58,7 +58,7 @@ const DetectPage: React.FC = () => {
       <header className="px-4 py-2 border-b flex items-center justify-between bg-white shadow-sm">
         <div className="flex items-center gap-1 font-medium">
           <Leaf className="h-5 w-5 text-green-600" />
-          <span className="text-md">FarmFriend</span>
+          <span className="text-md">SmartFarm</span>
         </div>
         <button
           onClick={() => navigate("/")}
