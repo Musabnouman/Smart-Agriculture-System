@@ -283,5 +283,5 @@ We plan to enhance SmartFarm with the following improvements:
 
   * **Muhammad Musab** - [@Musabnouman](https://github.com/Musabnouman)
   * **Muhammad Haris Khan** - [@harrisbuddy15](https://github.com/harrisbuddy15)
-  * **AbdulkareemAhed** - [@AbdulkareemAhed(https://github.com/AbdulkareemAhed)
+  * **AbdulkareemAhed** - [@AbdulkareemAhed](https://github.com/AbdulkareemAhed)
 
