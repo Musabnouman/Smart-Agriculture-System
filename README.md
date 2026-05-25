@@ -262,7 +262,7 @@ The SmartFarm prototype integrates ESP32-based IoT hardware with AI-driven decis
 
 The ESP32 receives sensor data, sends it to the Flask backend through MQTT, and receives AI-generated irrigation and fertilization commands in real time.
 
-![SmartFarm Hardware Prototype](assets/readme/Hardware.png)
+![SmartFarm Hardware Prototype](assets/readme/Hardware.jpg)
 
 -----
 ## Future Scope
