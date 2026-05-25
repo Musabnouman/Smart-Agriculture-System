@@ -246,7 +246,25 @@ http://localhost:5173
   * ESP32 receives commands and controls the actuators.
 
 -----
+-----
 
+## Hardware Prototype
+
+The SmartFarm prototype integrates ESP32-based IoT hardware with AI-driven decision making. The hardware setup includes:
+
+  * ESP32 microcontroller
+  * Soil moisture sensor
+  * Temperature and humidity sensor
+  * LCD monitoring display
+  * Water pump
+  * Fertilizer pump
+  * MQTT communication support
+
+The ESP32 receives sensor data, sends it to the Flask backend through MQTT, and receives AI-generated irrigation and fertilization commands in real time.
+
+![SmartFarm Hardware Prototype](assets/readme/Hardware.png)
+
+-----
 ## Future Scope
 
 We plan to enhance SmartFarm with the following improvements:
